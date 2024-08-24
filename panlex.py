@@ -11,6 +11,7 @@ import zipfile
 
 # Download Manager
 def download_panlex_resources(version, out_dir='./'):
+    # Check the version from https://db.panlex.org
     url = f'https://db.panlex.org/panlex-{version}-csv.zip'
     out_path = f'{out_dir}/panlex-{version}-csv.zip'
     
